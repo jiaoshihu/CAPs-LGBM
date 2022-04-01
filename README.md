@@ -6,7 +6,7 @@ Channel proteins are hydrophilic channels across the plasma membrane that allow 
 # 2 Requirements
 Before running, please make sure the following packages are installed in Python environment:
 
-joblib==1.1.0 numpy==1.21.5 pandas==1.3.5 scikit-learn==1.0.2 xgboost==1.4.2 scipy==1.7.3 lightgbm==3.3.2
+joblib==1.1.0  numpy==1.21.5  pandas==1.3.5  scikit-learn==1.0.2  xgboost==1.4.2  scipy==1.7.3  lightgbm==3.3.2
 
 For convenience, we strongly recommended users to install the Anaconda Python 3.8.5 (or above) in your local computer.
 
