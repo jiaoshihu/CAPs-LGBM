@@ -1,7 +1,7 @@
 # CAPs-LGBM
 
 # 1 Description
-Autophagy is a conservative ‘self-eating’ process during biological evolution. Accurately identification of autophagy proteins (ATGs) is crucially important to reveal their biological functions. Here, we developed the first machine learning-based software that enables the classification of proteins into ATGs or non-ATGs. ATGPred-FL, which identifies ATGs using feature representation learning scheme and support vector machine algorithm. It has the potential to facilitate future computational work in this field. Webserver and datasets available at: http://lab.malab.cn/~acy/ATGPred-FL/
+Channel proteins are hydrophilic channels across the plasma membrane that allow ions of the appropriate size to pass along the concentration gradient and play an essential role in the material exchange of cells with their surrounding environment. Here, we developed the first machine learning-based software that enables the classification of proteins into channel proteins or non-channel proteins. CAPs-LGBM, which identifies channel proteins using feature representation learning scheme and lightGBM algorithm. It has the potential to facilitate future computational work in this field. Webserver and datasets available at: http://lab.malab.cn/~acy/CAPs-LGBM
 
 # 2 Requirements
 Before running, please make sure the following packages are installed in Python environment:
@@ -13,7 +13,7 @@ For convenience, we strongly recommended users to install the Anaconda Python 3.
 # 3 Running
 Changing working dir to ATGPred-main, and then running the following command:
 
-python ATGPred.py -i test.fasta -o prediction_results.csv
+python CAPs-LGBM.py -i test.fasta -o prediction_results.csv
 
 -i: input file in fasta format
 
