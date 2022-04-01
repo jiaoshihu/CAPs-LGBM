@@ -7,6 +7,7 @@ Channel proteins are hydrophilic channels across the plasma membrane that allow 
 Before running, please make sure the following packages are installed in Python environment:
 
 joblib==1.1.0
+
 numpy==1.21.5  
 pandas==1.3.5  
 scikit-learn==1.0.2  
