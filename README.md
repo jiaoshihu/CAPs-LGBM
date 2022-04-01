@@ -11,7 +11,7 @@ joblib==1.1.0 numpy==1.21.5 pandas==1.3.5 scikit-learn==1.0.2 xgboost==1.4.2 sci
 For convenience, we strongly recommended users to install the Anaconda Python 3.8.5 (or above) in your local computer.
 
 # 3 Running
-Changing working dir to ATGPred-main, and then running the following command:
+Changing working dir to CAPs-LGBM-main, and then running the following command:
 
 python CAPs-LGBM.py -i test.fasta -o prediction_results.csv
 
